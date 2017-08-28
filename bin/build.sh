@@ -5,7 +5,12 @@ set -eu -o pipefail
 PROJECT_ROOT="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd)"
 cd "$PROJECT_ROOT"
 
-echo -e "\033[0;32mBuilding website...\033[0m"
+echo -e "Building website..."
+
+# Update git submodules
+echo -e "Updating Git submodules"
+git submodule init
+git submodule update
 
 # Build the project.
 "$PROJECT_ROOT/hugow"
