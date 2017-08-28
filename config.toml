@@ -1,9 +1,9 @@
 baseurl = "https://liksi.searchmymind.com"
 title = "Universal"
 theme = "hugo-universal-theme"
-languageCode = "en-us"
+languageCode = "fr-fr"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
@@ -42,7 +42,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/liksi"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
