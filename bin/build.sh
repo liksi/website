@@ -8,9 +8,9 @@ cd "$PROJECT_ROOT"
 echo -e "Building website..."
 
 # Update git submodules
-echo -e "Updating Git submodules"
-git submodule init
-git submodule update
+# echo -e "Updating Git submodules"
+# git submodule init
+# git submodule update
 
 # Build the project.
 "$PROJECT_ROOT/hugow"
