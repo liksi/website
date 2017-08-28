@@ -17,13 +17,15 @@ if [[ -z $GIT_COMMIT ]]; then
   GIT_COMMIT=$(cd ..; git rev-parse --verify HEAD)
 fi
 
-echo -e "\033[0;32mDeploying updates to GitHub $GIT_COMMIT...\033[0m"
 # Add changes to git.
 git add --all
 
+
 # Commit changes.
+echo -e "Commit of generated files..."
 git commit -m "Deploy $(cd ..; echo -n "liksi/website@"; git show --oneline -s $GIT_COMMIT)"
 
 # Push source and build repos.
+echo -e "Deploying updates to GitHub $GIT_COMMIT..."
 git push origin master
 
