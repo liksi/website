@@ -3,7 +3,7 @@ set -e -o pipefail
 
 # MacOS lover's, I did not forget you ;)
 PROJECT_ROOT="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd)"
-PUBLIC_DIR=$PROJECT_ROOT/public
+PUBLIC_DIR=${PROJECT_ROOT}/public
 
 REPO="git@github.com:liksi/liksi.github.io.git"
 
@@ -16,6 +16,10 @@ cd "$PROJECT_ROOT/public"
 if [[ -z $GIT_COMMIT ]]; then
   GIT_COMMIT=$(cd ..; git rev-parse --verify HEAD)
 fi
+
+
+# Go To Public folder
+cd "$PROJECT_ROOT/public"
 
 # Add changes to git.
 git add --all
