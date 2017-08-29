@@ -1,4 +1,4 @@
-baseurl = "https://liksi.searchmymind.com"
+baseurl = "https://www.liksi.fr"
 title = "Universal"
 theme = "hugo-universal-theme"
 languageCode = "fr-fr"
