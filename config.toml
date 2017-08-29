@@ -1,4 +1,4 @@
-baseurl = "https://www.liksi.fr"
+baseurl = "https://www.liksi.fr/"
 title = "Universal"
 theme = "hugo-universal-theme"
 languageCode = "fr-fr"
