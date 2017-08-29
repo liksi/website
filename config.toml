@@ -12,6 +12,9 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
+# Activatoin du robot.txt
+enableRobotsTXT = true
+
 [menu]
 
 # Main menu
