@@ -1,5 +1,5 @@
 baseurl = "https://www.liksi.fr/"
-title = "Universal"
+title = "Liksi"
 theme = "hugo-universal-theme"
 languageCode = "fr-fr"
 # Site language. Available translations in the theme's `/i18n` directory.
@@ -30,9 +30,9 @@ enableRobotsTXT = true
     weight = 2
 
 [[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
+    name = "Success Stories"
+    identifier = "success_stories"
+    url  = "/success-stories/"
     weight = 3
 
 [[menu.main]]
@@ -63,20 +63,20 @@ enableRobotsTXT = true
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:info@liksi.fr"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    author = "Liksi"
+    defaultKeywords = ["liksi", "hugo", "go"]
+    defaultDescription = "Site web de Liksi"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "liksi"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -91,26 +91,22 @@ enableRobotsTXT = true
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "info@liksi.fr"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2017, Liksi; tous droits réservés."
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    date_format = "2 January 2006"
 
     logo = "img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    address = """<p><strong>Liksi</strong>
+        <br>43 quai de la Prévalaye
+        <br>35 000 RENNES
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "48.107752"
+    longitude = "-1.690159"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -163,10 +159,10 @@ enableRobotsTXT = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
+    title = "Nos Clients"
     subtitle = ""
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
+    title = "Notre blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
