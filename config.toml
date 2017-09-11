@@ -1,4 +1,4 @@
-baseurl = "https://www.liksi.fr/"
+baseurl = "http://www.liksi.fr/"
 title = "Liksi"
 theme = "hugo-universal-theme"
 languageCode = "fr-fr"
@@ -151,11 +151,11 @@ enableRobotsTXT = true
     icon = "fa fa-file-code-o"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
+    link_url = "blog"
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
