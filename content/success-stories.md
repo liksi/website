@@ -1,6 +1,5 @@
 +++
 title = "Success Stories"
-id = "success_stories"
 +++
 
 # We are here to help you
