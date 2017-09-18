@@ -69,7 +69,7 @@ enableRobotsTXT = true
 [params]
     viewMorePostLink = "/blog/"
     author = "Liksi"
-    defaultKeywords = ["liksi", "hugo", "go"]
+    defaultKeywords = ["liksi", "développement", "services"]
     defaultDescription = "Site web de Liksi"
 
     # Google Maps API key (if not set will default to not passing a key.)
@@ -149,7 +149,7 @@ enableRobotsTXT = true
 [params.see_more]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
+    title = "Vous voulez en savoir plus ?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
     link_url = "blog"
     link_text = "Check other homepages"
@@ -163,6 +163,11 @@ enableRobotsTXT = true
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "Notre blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+[params.offer]
+    enable = true
+    title = "Notre offre"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
