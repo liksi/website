@@ -12,5 +12,10 @@ echo -e "Building website..."
 # git submodule init
 # git submodule update
 
+# Go To Public folder
+cd "$PROJECT_ROOT/public"
+
+git pull origin master
+
 # Build the project.
 "$PROJECT_ROOT/hugow"
