@@ -1,4 +1,7 @@
 weight: 2
 name: "Big Data"
 icon: "fa fa-lightbulb-o"
-description: "Machine Learning<br> Splunk."
+description: "Machine Learning<br/>
+              Data Mining<br/>
+              SQL et NoSQL<br/>
+              Massification de données"

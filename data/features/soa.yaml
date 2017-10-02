@@ -1,7 +1,8 @@
 weight: 4
 name: "SOA"
 icon: "fa fa-lightbulb-o"
-description: "Bus de service<br>
-              WOA<br>
-              Messagerie<br>
-              Micro services."
+description: "Message Broker<br/>
+              Bus de données<br/>
+              Micro services<br/>
+              API<br/>
+              WOA."
