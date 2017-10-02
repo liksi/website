@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body>
+
+<div id="all">
+
+    <header>
+
+        {{ partial "nav.html" . }}
+
+    </header>
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <div id="content">
+        {{ if isset .Params "id" }}
+
+        {{ partial .Params.id . }}
+
+        {{ else }}
+
+        <div class="container offer">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div>
+                        <div>
+
+                            <h2 id="valoriser">Nous valorisons les idées</h2>
+                        </div>
+                        <div>
+                            <p>Nous mettons la <span class="liksi-blue">technologie</span> et notre <span class="liksi-blue">savoir-faire</span> au service de nos clients, afin qu’ils
+                                puissent évoluer et rester compétitifs, développer de nouveaux produits, services et
+                                business models.</p>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="{{ .Site.BaseURL }}img/offers/offer1_1.jpg"/>
+                            </div>
+                            <div class="col-md-7">
+
+                                <h2 id="anticiper-la-transformation-numérique">Anticiper la transformation
+                                    numérique</h2>
+
+                                <p>Nous aidons nos clients à préparer l’avenir et appréhender l’évolution des
+                                    applications et systèmes d’informations.</p>
+
+                                <ul>
+                                    <li>Prendre en compte de nouvelles contraintes : <b>massification des données,
+                                        démultiplication du nombre de d’interfaces (capteurs, API, bases, flux …) ,
+                                        Sécurité, Réglementation…</b></li>
+                                    <li>Intégrer de puissants outils d’analyses <span class="liksi-pink">Big Data</span>
+                                        : <b>Data Mining, Base de données NoSQL</b>, <span class="liksi-pink">Machine Learning</span>…
+                                    </li>
+                                    <li>Optimiser l’équation Coût/Qualité et booster la productivité : <b>Agile</b>,
+                                        <span class="liksi-pink">DevOps</span>, <b>Intégration continue</b>…
+                                    </li>
+                                    <li>Gagner en scalabilité et souplesse en dématérialisant les infrastructures :
+                                        <span class="liksi-pink">Cloud</span>, <b>virtualisation</b>, <b>SOA</b>…
+                                    </li>
+                                    <li>Imaginer de nouveaux usages : <b>Mobilité</b>, IoT <b>(Internet of Things)</b>,
+                                        <b>UI (User Interface)</b>, <span class="liksi-pink">UX</span> <b>(User
+                                            eXperience)</b>…
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <h2 id="nous-pratiquons">Nous Pratiquons</h2>
+
+                                <p>Notre Business Unit « Opérations Externes » pilote les activités d’engagement de
+                                    moyens.</p>
+
+                                <p>Nous privilégions les missions à forte valeur ajoutée comme l’architecture,
+                                    l’expertise ou le développement sur les technologies qui portent la croissance de
+                                    l’économie numérique.</p>
+
+                                <p>Dans cette configuration, nos ingénieurs sont intégrés aux équipes du client qui
+                                    garde la responsabilité des livrables et le management du projet.</p>
+
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <h3 id="strategie">Stratégie</h3>
+
+                                <p>
+                                    Beaucoup d’entreprises hésitent encore à lancer des projets de transformation
+                                    numériques, par manque d’information sur l’équation financière : combien ça
+                                    va me couter ? Je n’ai pas le budget pour le faire !</p>
+
+
+                                <p>
+                                    Nous aidons nos clients à prendre les décisions stratégiques pour leurs
+                                    applications et systèmes d’information.</p>
+
+
+                                <p>
+
+                                    Depuis longtemps, les systèmes d’information accompagnent le
+                                    développement stratégique d’une entreprise. Les fonctions «supports» (CRM,
+                                    ERP, SCM, …) soutiennent la croissance.</p>
+
+
+                                <p>
+
+                                    La transformation numérique, à travers de nouveaux usages et business
+                                    models , donne aujourd’hui à l’entreprise de nouveaux leviers de croissance et
+                                    moteurs de compétitivité.</p>
+
+
+                                <p>
+
+                                    Elle fait par exemple évoluer la relation client en créant de nouveaux support
+                                    de communication, ou de collecte d’informations. Orientée service, elle
+                                    apporte de la flexibilité dans la mise sur le marché de nouvelles fonctions et
+                                    dans le développement du portfolio…</p>
+
+
+                                <p>
+                                    Les applications métiers et systèmes d’information n’accompagnent plus
+                                    seulement la croissance mais deviennent stratégiques et sont au cœur de la
+                                    chaine de valeur d’une entreprise. Ils mobilisent des acteurs autrefois
+                                    extérieurs aux cercles informatiques (décideurs, marketeurs, utilisateurs ….).</p>
+
+
+                                <p>
+                                    C’est pourquoi nos interlocuteurs ont besoin d’être accompagnés, afin de :</p>
+
+                                <ul>
+                                    <li>identifier la valeur ajoutée de leurs produits ou services,</li>
+                                    <li>évaluer les impacts financiers et calculer le retour sur investissement,</li>
+                                    <li>préparer la communication vers tous les acteurs (internes et externes),</li>
+                                    <li>anticiper la formation et gérer la conduite au changement.</li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <h3 id="architecture">Architecture</h3>
+                                <p>
+                                    L’architecture logicielle est un domaine dans lequel se sont épanouis ces
+                                    dernières années les paradigmes objet (abstraction et encapsulation) et service
+                                    (interfaces). L’état de l’art en la matière est maintenant relativement stable, et
+                                    les méthodologies d’ingénierie logicielle sont dignes des méthodologies de
+                                    production industrielle.</p>
+
+
+                                <p>L’évolution des capacités de stockage et de traitement proposent de nouvelles
+                                    capacités de calcul, de simulation et d’analyse (Big Data), servies par des
+                                    algorithmes avancées (Intelligence Artificielle), pouvant contrôler de nombreux
+                                    capteurs et actionneurs (robotique, IoT…).</p>
+
+
+                                <p>Dans ces environnements toujours plus pointus, nous auditons, conseillons et
+                                    aidons nos clients à définir les orientations technologiques.</p>
+
+
+                                <p>Nous concevons des architectures logicielles à partir des références (design
+                                    pattern) et derniers standards du marché.</p>
+
+
+                                <p>Nous préconisons les outils et plateformes les plus adaptées au contexte de
+                                    notre client et développons les interfaces permettant de les intégrer.</p>
+
+
+                                <p>Nous préconisons les politiques de gouvernance, formons aux Best Practices,
+                                    et recommandons les processus à appliquer.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-7">
+                                <h2 id="expertise">Expertise</h2>
+
+                                <p>Nous apportons une expertise et des compétences pour la réalisation des projets.
+                                    Nous mettons à disposition de ces projets nos outils et nos processus de production
+                                    pour garantir la qualité et la productivité.
+                                    Nous assurons également la formation des clients.</p>
+                                <p>
+                                    Nous intervenons sous différentes formes : Régie, Forfait, Centre de Service.</p>
+                                <p>
+                                    Nous privilégeons les modes d’intervention ou les organisations où nous pouvons
+                                    capitaliser sur le management et le coaching de nos
+                                    collaborateurs, l’utilisation de nos outils et méthodes de développement.</p>
+
+                            </div>
+                            <div class="col-md-5">
+                                <img src="{{ .Site.BaseURL }}img/offers/offer1_1.jpg"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 id="developpement">Développement</h2>
+                                <p>Nous intervenons ponctuellement sur un projet. Notre collaborateur est déployé dans
+                                    une équipe client et travaille sur site ou, en
+                                    partie, à distance dans nos locaux en fonction des phases, des enjeux et contraintes
+                                    du projet.</p>
+                            </div>
+                        </div>
+                        <h2 id="accompagnement-commercial">Accompagnement commercial</h2>
+
+                        <p>Nous aidons nos clients à évaluer les impacts financiers et proposons une analyse
+                            coût/bénéfice permettant de valoriser la valeur ajoutée et calculer le retour sur
+                            investissement.</p>
+
+                        <p>Nous accompagnons nos clients à travers un plan de communication et de formation pour gérer
+                            le risque de résistance au changement.</p>
+
+                        <h2 id="audit-conseil">Audit – Conseil</h2>
+
+                        <p>Nous auditons, conseillons et aidons nos clients à définir les orientations technologiques et
+                            à prendre les décisions stratégiques du point de vue de leurs systèmes et applications
+                            informatiques.</p>
+
+                        <p>Nous concevons des architectures logicielles à partir des références (design pattern) et
+                            derniers standards du marché.</p>
+
+                        <p>Nous préconisons les outils et plateformes les plus adaptées au contexte de notre client et
+                            développons les interfaces permettant de les intégrer.</p>
+
+                        <p>Préconisons les politiques de gouvernance, recommandons les processus à appliquer</p>
+
+                        <h2 id="expertise">Expertise</h2>
+
+                        <p>Nous apportons une expertise et des compétences pour la réalisation des projets.</p>
+
+                        <p>Nous mettons à disposition de ces projets nos outils et nos processus de production pour
+                            garantir la qualité et la productivité.</p>
+
+                        <h2 id="formation">Formation</h2>
+
+                        <p>Nous dispensons des formations techniques sur nos domaines d’expertises</p>
+
+                        <h2 id="réalisation-de-projets-au-forfait">Réalisation de projets au forfait</h2>
+
+                        <p>Nous développons de bout en bout des d’applications ou/et des systèmes d’information.</p>
+
+                        <p>Nous travaillons à partir de spécifications ou, de façon agile, à partir de l’expression d’un
+                            besoin et de la validation d’une solution.</p>
+
+                        <p>Nous prenons un engagement de résultat.</p>
+
+                        <p>Nos projets sont garantis 1 an. Il est possible d’acheter en sus la maintenance corrective et
+                            évolutive et/ou le maintient en condition opérationnel (MCO)</p>
+
+                        <h2 id="centre-de-services">Centre de services</h2>
+
+                        <p>Lorsqu’il est compliqué de définir un livrable ou lorsque le client souhaite manager
+                            directement l’équipe projet, nous pouvons mettre en place un centre de service.</p>
+
+                        <p>Il n’y a pas d’engagement de résultat mais Il peut y avoir des pénalités ou un système de
+                            bonus/malus (dans tous les cas limités à 15% du prix total de la prestation) mis en place
+                            dans le cadre du projet en fonction d’indicateurs business / KPI permettant de définir les
+                            enjeux du projet.</p>
+
+                        <h2 id="acquisition-de-compétence">Acquisition de compétence</h2>
+
+                        <p>Cette offre est destinée aux clients désirant se doter de façon permanente d’une compétence
+                            que nous maitrisons. Pour des raisons stratégiques, des entreprises ont besoin d’acquérir
+                            ces compétences en interne pour gérer et maintenir ses systèmes d’informations et
+                            applications.</p>
+
+                        <p>Nous assistons ces entreprises à travers notre offre d’acquisition de compétences. Nous
+                            mettons en place une équipe dédiée que nous recrutons, formons, et manageons pendant un
+                            temps avant de transférer par paliers successifs le management et l’intégralité de l’équipe
+                            à notre client.</p>
+
+                        <p>Nous monitorons le processus tout au long de l’opération, assistons l’équipe projet en lui
+                            offrant le support de notre « core-team » d’experts.</p>
+
+                        <p>Cette offre est un engagement partiel de résultats (sous forme d’indicateurs business /
+                            KPI).</p>
+
+                        <h2 id="revenue-sharing">« Revenue sharing »</h2>
+
+                        <p>Certains de nos clients pensent avoir une très bonne idée de développement de produits ou
+                            solutions mais n’ont pas les moyens financiers associés pour la développer.</p>
+
+                        <p>Ils peuvent nous soumette leur projet sous la plus stricte confidentialité (NDA, respect des
+                            droits de propriété intellectuelle).</p>
+
+                        <p>Si nous validons l’intérêt de leur projet, qu’il est en adéquation avec notre savoir-faire et
+                            notre stratégie, alors nous proposons de le développer en mode « revenue sharing ».</p>
+
+                        <p>Dans ces conditions, en fonction du potentiel du projet et du coefficient de risque associé,
+                            nous définissons le pourcentage que nous sommes prêt à investir (possibilité d’aller jusqu’à
+                            100% pour les projets les plus prometteurs) et mettons les ressources et matériels à
+                            disposition dans nos locaux.</p>
+
+                        <p>Une fois développé, et commercialisé, nous demandons une redevance sous forme de licence ou
+                            royalties déterminée en fonction de notre investissement.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    {{ end }}
+</div>
+<!-- /#content -->
+
+{{ partial "footer.html" . }}
+
+</div>
+<!-- /#all -->
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

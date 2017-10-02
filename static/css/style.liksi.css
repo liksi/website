@@ -1,4 +1,27 @@
 
+.liksi-pink {
+  color: #ea5297;
+}
+.liksi-blue {
+  color: #00B2A9;
+}
+.liksi-light-blue {
+  color: #C2E9EF;
+}
+.liksi-dark-blue {
+  color: #007096;
+}
+.liksi-dark-grey {
+  color: #353535;
+}
+.liksi-dark-green {
+  color: #38a7bb;
+}
+
+.offer h2 {
+  color: #38a7bb;
+}
+
 .cloud {
   width: 110px;
   height: 110px;
