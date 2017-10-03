@@ -1,6 +1,9 @@
 +++
 title = "Ce que nous faisons"
 weight= 1
+layout = "quoi"
+type = "offer"
+banner = "img/offers/quoi.jpg"
 +++
 
 Nous mettons la technologie et notre savoir-faire au service de nos clients, afin qu’ils puissent évoluer et rester compétitifs, développer de nouveaux produits, services et business models.
@@ -17,12 +20,14 @@ Nous aidons nos clients à préparer l’avenir et appréhender l’évolution d
 * Imaginer de nouveaux usages : Mobilité, IoT (Internet of Things), UI (User Interface), UX (User eXperience)…
 
 ## En pratique
-Si l’appréhension des nouveaux usages est une clé de l’urbanisation d’un système d’informations, elle est stratégique dans le cadre des applications core-business. Les logiques d’architecture de services, de « virtualisation », de multi-support, de mobilité, d’objets connectés transforment les usages, et les business model. 
+Notre Business Unit « Opérations Externes » pilote les activités d’engagement de moyens.
 
-Si beaucoup d’entreprises hésitent encore à lancer des projets de transformation numériques, c’est souvent à cause d’une équation financière dont elles n’ont pas la réponse : combien ça va me couter ? Je n’ai pas le budget pour le faire !
 
-Quelque soit la maturité et le niveau d’avancement sur le sujet, nous pensons que les entreprises ont besoin d’être accompagnées pour réussir cette évolution.
+Nous privilégions les missions à forte valeur ajoutée comme l’architecture, l’expertise ou le développement sur les technologies qui portent la croissance de l’
+économie numérique.
 
+
+Dans cette configuration, nos ingénieurs sont intégrés aux équipes du client qui garde la responsabilité des livrables et le management du projet.
 ## Accompagnement commercial
 Nous aidons nos clients à évaluer les impacts financiers et proposons une analyse coût/bénéfice permettant de valoriser la valeur ajoutée et calculer le retour sur investissement.
 

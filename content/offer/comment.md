@@ -1,6 +1,7 @@
 +++
 title = "Comment nous le faisons"
 weight= 2
+banner = "img/offers/comment.jpg"
 +++
 
 Notre expérience nous a orienté vers une autre façon d’exercer notre métier, en conscience, avec passion et maturité.

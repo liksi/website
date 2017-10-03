@@ -1,6 +1,7 @@
 +++
 title = "Pourquoi nous le faisons"
 weight = 3
+banner = "img/offers/pourquoi.jpg"
 +++
 
 Quoi de plus traditionnelle et physique qu’une chambre d’hôtel, aujourd’hui virtuelle via une plateforme de réservation en ligne ? 
