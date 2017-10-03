@@ -1,6 +1,6 @@
 weight: 6
 name: "DevOps"
-icon: "fa fa-user"
+icon: "fa fa-gears"
 description: "Agile<br>
               Intégration Continue<br>
               Usine logicielle."

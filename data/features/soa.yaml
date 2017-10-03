@@ -1,7 +1,8 @@
 weight: 4
 name: "SOA"
-icon: "fa fa-lightbulb-o"
-description: "Message Broker<br/>
+icon: "fa fa-cubes"
+description: "Back End<br/>
+              Message Broker<br/>
               Bus de données<br/>
               Micro services<br/>
               API<br/>

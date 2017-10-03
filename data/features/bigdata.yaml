@@ -1,6 +1,6 @@
 weight: 2
 name: "Big Data"
-icon: "fa fa-lightbulb-o"
+icon: "fa fa-database"
 description: "Machine Learning<br/>
               Data Mining<br/>
               SQL et NoSQL<br/>
