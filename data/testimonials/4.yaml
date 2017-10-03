@@ -1,4 +1,28 @@
-text: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections."
-name: "John McIntyre"
-position: "CEO, TransTech"
+text: "Une plateforme française VOD souhaitait remettre à plat son système de gestion
+       des droits devant l’explosion récente du nombre d’ayants droits et des nouveaux
+       modes de contractualisation.
+       <br>
+       <br>
+       La vétusté du système en place, le grand nombre d’acteurs impliqués dans son
+       exploitation et l’augmentation croissante de la volumétrie des données à traiter
+       rendaient ce projet complexe à mettre en œuvre.
+       <br>
+       <br>
+       Pour fournir un pricing « temps réel » des reversements ayants-droits à partir des
+       centaines de milliers de tickets quotidiens, le responsable souhaitait s’appuyer sur
+       un moteur de calcul automatisé, développé en suivant les méthodes agiles.
+       <br>
+       <br>
+       Pour gérer l’ensemble des typologies de contrats VOD, il souhaitait disposer d’un
+       module de configuration dynamique.
+       <br>
+       <br>
+       Nous lui avons fournis ce système.
+       <br>
+       <br>
+       Le déploiement de cette solution a permis de réduire considérablement les erreurs
+       de calculs, de réduire les délais d’attente des reversements et d’augmenter la
+       productivité des équipes."
+name: "VOD - Agile"
+position: "Grégory"
 avatar: "img/testimonials/person-4.jpg"

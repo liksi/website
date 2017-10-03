@@ -1,4 +1,28 @@
-text: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections."
-name: "John McIntyre"
-position: "CEO, TransTech"
+text: "Le responsable d’un acteur international de ventes de solutions
+       IAAS/SAAS souhaitait rationaliser ses coûts d’infrastructure
+       Cloud sans impacter la productivité de ses équipes.
+ <br>
+ <br>
+       Leurs laisser la liberté , à partir d’un accès au Cloud Amazon
+       Web Service (AWS), de créer autant de machines virtuelles (VM)
+       qu’elles le désiraient, était devenu très couteux car les VM n’
+       étaient pas souvent arrêtées même en cas d’inutilisation.
+ <br>
+ <br>
+       En continuant à fonctionner en mode DevOps, notre client a
+       souhaité fluidifier le cycle de vie de ses environnements dans le
+       Cloud en utilisant un Chatbot capable de s’interfacer avec les
+       API AWS. Quand un réseau de neurones entrainés sur les
+       données passées était couplé au Chatbot, il était en mesure de
+       prédire la liste des machines à arrêter.
+ <br>
+ <br>
+       Nous avons développé cette architecture.
+        <br>
+        <br>
+       Le premier mois de mise en service, notre client a pu
+       économiser 23% sur ces coûts d’hébergement en gardant son
+       efficacité et son agilité opérationnelle."
+name: "IaaS / Cloud Services"
+position: "Philippe"
 avatar: "img/testimonials/person-2.jpg"

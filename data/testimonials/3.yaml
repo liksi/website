@@ -1,4 +1,27 @@
-text: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections."
-name: "John McIntyre"
-position: "CEO, TransTech"
+text: "Nous avons récemment travaillé avec le directeur technique d’un
+       opérateur bancaire qui devait faire face à une évolution de la
+       législation lui imposant de transformer son SI dans des délais
+       extrêmement courts.
+       <br>
+       <br>
+       L'hétérogénéité des formats de données, les différents protocoles
+       utilisés par chaque banque ainsi que les aspects sécurité des
+       données échangées rendaient ce projet difficile à réaliser en
+       seulement 6 mois.
+       <br>
+       <br>
+       Pour pouvoir continuer à opérer une trentaine de banques, notre
+       client a souhaité développer un système totalement nouveau en
+       mobilisant ses équipes et en nous sollicitant sur l’architecture et le
+       développement du cœur de la solution .
+       <br>
+       <br>
+       Nous l’avons fait.
+       <br>
+       <br>
+       En se mettant en conformité avec la législation, notre client a pu
+       continuer à tenir son rôle d’opérateur incontournable sur le
+       marché."
+name: "Banque - SOA"
+position: "Raphaël"
 avatar: "img/testimonials/person-3.png"
