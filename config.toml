@@ -36,9 +36,15 @@ enableRobotsTXT = true
 #    weight = 3
 
 [[menu.main]]
+    name = "Nous Rejoindre"
+    identifier = "nous_rejoindre"
+    url  = "/nous-rejoindre/"
+    weight = 2
+
+[[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 2
+    weight = 3
 
 # Top bar social links menu
 
