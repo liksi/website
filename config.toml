@@ -93,7 +93,7 @@ enableRobotsTXT = true
     # Enable the contact form by entering your Formspree.io email
     email = "info@liksi.fr"
 
-    about_us = "<p>Les fondateurs de Liksi se connaissent depuis plusieurs années et ont déjà travaillés ensemble à travers des structures différentes. Partageant les mêmes valeurs, et passionnés par les nouvelles technologies, ils se sont naturellement regroupés autour d’un projet commun.</p>"
+    about_us = "<p>Les fondateurs de Liksi se connaissent depuis plusieurs années et ont déjà travaillé ensemble à travers des structures différentes. Partageant les mêmes valeurs, et passionnés par les nouvelles technologies, ils se sont naturellement regroupés autour d’un projet commun.</p>"
     copyright = "Copyright (c) 2017, Liksi; tous droits réservés."
 
     # Format dates with Go's time formatting
